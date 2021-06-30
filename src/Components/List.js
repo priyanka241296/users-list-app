@@ -10,7 +10,7 @@ const List = ({ users, loading }) => {
         return (
           <div className="col-10 col-md-4 mt-5" key={user.id}>
             <div className="card p-2">
-              <div className="d-flex align-tems-center">
+              <div className="d-flex align-items-center">
                 <div className="image">
                   <img src={user.avatar} className="rounded" width="155"></img>
                 </div>
