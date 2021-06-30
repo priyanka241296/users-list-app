@@ -4,6 +4,7 @@ const List = ({ users, loading }) => {
   if (loading) {
     return <h2>Loading...</h2>;
   }
+
   return (
     <>
       {users.map((user) => {
