@@ -29,6 +29,7 @@ p {
 .image {
   min-width: 155px;
   margin-right: 20px;
+  height: 150px;
 }
 .stats {
   background: #f2f5f8 !important;
