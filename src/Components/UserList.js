@@ -7,7 +7,7 @@ const UserList = () => {
 
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostPerPage] = useState(1);
+  const [postsPerPage, setPostPerPage] = useState(6);
 
   const [pageLimit, setPageLimit] = useState(5);
   const [maxPageLimit, setMaxPageLimit] = useState(5);
