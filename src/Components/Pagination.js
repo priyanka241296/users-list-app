@@ -13,7 +13,7 @@ const Pagination = ({ totalPage, paginate }) => {
         {pageNumbers.map((number) => (
           <li key={number} className="page-item">
             <touch onClick={() => paginate(number)} className="page-link">
-              {number}
+              Page {number}
             </touch>
           </li>
         ))}

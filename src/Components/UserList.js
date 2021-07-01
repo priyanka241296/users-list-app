@@ -50,7 +50,7 @@ const UserList = () => {
         </div>
         <div className="d-flex justify-content-center mt-5">
           <Pagination
-            postPerPage={postsPerPage}
+          
             totalPosts={users.length}
             paginate={paginate}
             totalPage={totalPage}
